@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+            <html>
+               <head>
+                  <title>string Example/<title>
+               </head>
+               <body>
+                   <script>
+                      var a ='Hi there!'
+                      var b ="Hi there!"
+                      document.write(a+ "<br>");
+                      document.write(b);
+                  </script>
+
+               </body>
+            </html>

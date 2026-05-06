@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript HTML DOM</h2>
+<P id="intro">Finding HTML Element by Id</p>
+<p id="demo"></p>
+<script>
+   const element = document.getElementById("intro")
+   document.getElementById("demo").innerHTML="The test from the intro paragraph is: " + element.innerHTML;
+</script>
+</body>
+</html>

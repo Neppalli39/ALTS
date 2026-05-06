@@ -1,0 +1,19 @@
+<html>
+<body>
+<p id="demo"></p>
+<script>
+const vehicleOne = {
+  brand: 'ford',
+  model: 'mustang',
+  type: 'car',
+  year: 2021,
+  color: 'red'
+ }
+myvehicle(vehicleOne);
+funtion myvehicle({type, color, brand, model})  {
+ const message = 'My  '  + type + 'is a ' + color + ' ' + brand + ' ' + model + ' ,')
+document.getElemetById("demo").innerHTML = message;
+}
+ </script>
+</body>
+</html>

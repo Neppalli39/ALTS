@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<title>JavaScript storing single values </title>
+ </head>
+ <body>
+<script>
+     var colors =["Red", "Green", "Blue"];
+     document.write(colors); 
+     document.write("<br>"); 
+     document.write(colors[0]);
+     document.write("<br>");
+     document.write(colors[1]);
+     document.write("<br>");
+     document.write(colors[2]);
+     document.write("<br>");
+     document.write(colors.length);
+     document.write("<br>");
+     for(var i = 0;i < colors.length; i++){
+     document.write(colors[i] + "<br>");
+    }
+     
+
+     
+</script>
+ </body>
+</html>

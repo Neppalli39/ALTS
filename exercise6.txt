@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<title>JavaScript storing single values </title>
+ </head>
+ <body>
+<script>
+     var color1 =["Red", "Green", "Blue"];
+     document.write(colors);   
+</script>
+ </body>
+</html>

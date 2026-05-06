@@ -1,0 +1,4 @@
+java script arrays
+arrays are used to store more than one value or a group of value under a single variable name.
+->arrays can store any valid value. like string ,number, object, functions, and other arrays.
+->thus making it possible to  create more complex data structure such has am array of objects are am array of arrays

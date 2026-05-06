@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript HTML DOM</h1>
+<p id="demo">HELLO</p>
+<script>
+  //Acess a paragraph element
+   const mypara = document.getElementById("demo")
+   //change the content for element
+   mypara.innerHTML. = "Hello World!";
+</script>
+</body>
+</html>

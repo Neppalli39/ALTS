@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Form Example</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  label {
+    width: 120px;
+    font-weight: bold;
+  }
+
+  input {
+    padding: 6px;
+    width: 220px;
+  }
+
+  input[type="range"] {
+    width: 220px;
+  }
+
+  input[type="color"] {
+    width: 60px;
+    height: 30px;
+    padding: 2px;
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 8px 15px;
+  }
+</style>
+
+</head>
+<body>
+
+<h2>Form Example</h2>
+
+<form>
+
+  <div class="form-group">
+    <label>Placeholder :</label>
+    <input type="text" placeholder="Enter Numbers Only">
+  </div>
+
+  <div class="form-group">
+    <label>Autofocus :</label>
+    <input type="text" autofocus>
+  </div>
+
+  <div class="form-group">
+    <label>Range :</label>
+    <input type="range" min="0" max="100">
+  </div>
+
+  <div class="form-group">
+    <label>Search :</label>
+    <input type="search" placeholder="Search...">
+  </div>
+
+  <div class="form-group">
+    <label>Date :</label>
+    <input type="date">
+  </div>
+
+  <div class="form-group">
+    <label>Week :</label>
+    <input type="week">
+  </div>
+
+  <div class="form-group">
+    <label>Month :</label>
+    <input type="month">
+  </div>
+
+  <div class="form-group">
+    <label>Time :</label>
+    <input type="time">
+  </div>
+
+  <div class="form-group">
+    <label>Number :</label>
+    <input type="number" value="0">
+  </div>
+
+  <div class="form-group">
+    <label>Required :</label>
+    <input type="text" required>
+  </div>
+
+  <div class="form-group">
+    <label>Email :</label>
+    <input type="email">
+  </div>
+
+  <div class="form-group">
+    <label>Color :</label>
+    <input type="color">
+  </div>
+
+  <div class="form-group">
+    <label>Country :</label>
+    <input type="text">
+  </div>
+
+  <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>

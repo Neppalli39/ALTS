@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>JavaScript new elements into  Arrays</title>
+ </head>
+ <body>
+  <script>
+    var colors = ["Red", "Green", "Blue"];
+    document.write(colors);
+    document.write("<br>");
+    document.write(colors[0]);
+    document.write("<br>");
+    document.write(colors[1]);
+    document.write("<br>");
+    document.write(colors[2]);
+    document.write("<br>");
+    document.write(colors.length)
+    document.write("<br>");
+//Iterating or Looping over array elements
+for(var i = 0; i < colors.length; i++){
+  document.write(colors[i] + "<br>");
+}
+// for of loop iterates over array elements in ES6 Features
+for(var color of colors){
+    document.write(color + "<br>");
+}
+//Adding new elements to an array
+colors.push("yellow");
+document.write(colors);
+document.write("<br>");
+
+//Add the value to beginning of the array
+colors.unshift("white");
+document.write(colors);
+document.write("<br>");
+var last = colors.pop()
+document.write(last + "<br>");
+document.write(colors.length);
+document.write(colors);
+document.write("<br>");
+var first = colors.shift();
+document.write(last + "<br>");
+document.write(colors.length);
+document.write(colors);
+document.write("<br>");
+//jion()method.
+document.write(colors.jion() + "<br>");
+document.write(colors.jion("") + "<br>");
+document.write(colors.jion("-") + "<br>");
+document.write(colors.jion(", "));
+</script>
+</body>
+</html>
